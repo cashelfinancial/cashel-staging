@@ -1,5 +1,5 @@
 source "https://rubygems.org"
-ruby "2.3.1"
+ruby "2.3.3"
 
 # Hello! This is where you manage which Jekyll version is used to run.
 # When you want to use a different version, change it below, save the
@@ -12,8 +12,8 @@ ruby "2.3.1"
 # gem "jekyll", "3.2.1"
 gem "jekyll-admin"
 
-# This is the default theme for new Jekyll sites. You may change this to anything you like.
-gem "minima"
+#gem "cashel-theme", :git => "git@github.com:mauricerkelly/cashel-theme.git"
+gem "cashel-theme", :path => "../cashel-theme"
 
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and
 # uncomment the line below. To upgrade, run `bundle update github-pages`.

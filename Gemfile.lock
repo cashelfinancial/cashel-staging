@@ -1,3 +1,8 @@
+PATH
+  remote: ../cashel-theme
+  specs:
+    cashel-theme (0.1.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -157,12 +162,12 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  cashel-theme!
   github-pages
   jekyll-admin
-  minima
 
 RUBY VERSION
-   ruby 2.3.1p112
+   ruby 2.3.3p222
 
 BUNDLED WITH
-   1.13.0
+   1.13.6
